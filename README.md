@@ -1,7 +1,6 @@
  🛒 Gerenciador de Pedidos - Java Spring Boot
 
 Sistema completo de gerenciamento de pedidos, com autenticação via JWT, controle de estoque, cadastro de produtos, usuários e fluxo completo de pedidos. Desenvolvido em Java com Spring Boot.
-
 ---
 
 ## 🚀 Funcionalidades
@@ -22,7 +21,7 @@ Sistema completo de gerenciamento de pedidos, com autenticação via JWT, contro
 
 ## 🛠️ Tecnologias
 
-- Java 17+
+- Java 21
 - Spring Boot
 - Spring Security (com JWT)
 - JPA + Hibernate
@@ -41,3 +40,22 @@ spring.datasource.username=root
 spring.datasource.password=root
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
+
+## 💻 Como rodar o projeto localmente
+
+### 🔧 Configurar o banco de dados
+
+Crie o banco no MySQL:
+
+```sql
+CREATE DATABASE `case-produtos`;
+
+
+### 🚀 Rodar a aplicação
+
+Execute o seguinte comando no terminal:
+
+```bash
+./mvnw spring-boot:run
+
+
