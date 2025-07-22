@@ -35,11 +35,19 @@ Sistema completo de gerenciamento de pedidos, com autenticação via JWT, contro
 ### `application.properties`
 
 ```properties
+spring.application.name=Gerenciador de Pedidos
+jwt.secret=rootBuYMBPX6oagrEICwkpqAvXYOU9NAmwRtk
+
+# ConfiguraÃ§Ã£o do MySQL
 spring.datasource.url=jdbc:mysql://localhost:3306/case-produtos
 spring.datasource.username=root
-spring.datasource.password=root
+spring.datasource.password=senha
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
 spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.properties.hibernate.format_sql=true
 ```
 
 
