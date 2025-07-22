@@ -49,7 +49,6 @@ spring.jpa.hibernate.ddl-auto=update
 
 Crie o banco no MySQL:
 
-```sql
 CREATE DATABASE `case-produtos`;
 
 
@@ -57,7 +56,6 @@ CREATE DATABASE `case-produtos`;
 
 Execute o seguinte comando no terminal:
 
-```bash
 ./mvnw spring-boot:run
 
 
