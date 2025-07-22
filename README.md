@@ -40,6 +40,8 @@ spring.datasource.username=root
 spring.datasource.password=root
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
+```
+
 
 ## 💻 Como rodar o projeto localmente
 
